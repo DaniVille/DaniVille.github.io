@@ -193,11 +193,6 @@ p {
   text-align: justify;
 }
 
-table {
-  font-family: produc-sans;
-  text-align: center;
-}
-
 .img {
   text-align: center;
   -ms-flex-pack: distribute;
@@ -387,18 +382,18 @@ img {
     max-height: 80%;
     border-radius: 7px 25px 15px;
   }
-  .videos iframe {
-    display: block;
-    margin: 1% auto;
-    width: auto;
-    height: auto;
-  }
   .videos {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0 auto;
+  }
+  .videos iframe {
+    display: block;
+    margin: 1% auto;
+    width: auto;
+    height: auto;
   }
   .twitter {
     width: auto;
