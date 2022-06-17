@@ -17,6 +17,10 @@
   font-family: product-sans;
 }
 
+body {
+  background-color: #788995;
+}
+
 nav {
   float: right;
 }
@@ -114,18 +118,19 @@ h1, h2, h3 {
   border-radius: 15px 50px 30px;
 }
 
-footer {
-  text-align: center;
-  font-family: Dubai;
-  background-color: #0A6091;
-  font-weight: bold;
-  width: 100%;
-}
-
 .footer-icon {
   text-shadow: 0 0 15px;
   -webkit-animation: animate 1s infinite linear;
           animation: animate 1s infinite linear;
+}
+
+footer {
+  font-family: Dubai;
+  color: gray;
+  font-weight: bold;
+  background-color: #0A6091;
+  width: 100%;
+  text-align: center;
 }
 
 @-webkit-keyframes animate {
