@@ -186,14 +186,14 @@ p {
 
 }
 
-.ubi, .subItem{
+.ubi{
+    h2, .subItem{
+        margin: 10px;
+        padding: 1rem 0;
+        background-color: $secondColor;
+        text-align: center;
+    }
     text-align: center;
-}
-
-.ubi h2, .subItem{
-    margin: 10px;
-    padding: 1rem 0;
-    background-color: $secondColor;
 }
 
 
