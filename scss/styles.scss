@@ -141,6 +141,18 @@ h1, h2, h3{
     width: 100%;
     text-align: center;
 }
+@mixin mixin1{
+    text-align: center;
+    background-color: $secondColor;
+    padding: 1rem;
+    color: black;
+}
+@mixin mixin2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
 footer{
     @include mixinpb(); 
 }
@@ -190,16 +202,11 @@ p {
 }
 
 .infoPublica{
-    text-align: center;
-    background-color: $secondColor;
-    padding: 1rem;
-}
+    @include mixin1();
+} 
 
 .atencion{
-    text-align: center;
-    background-color: $secondColor;
-    padding: 1rem;
-    color: black;
+    @include mixin1();
 }
 
 .botones{
@@ -235,16 +242,23 @@ form{
     margin: 1% auto;
     width:50%;
 }
-body {
-    background-color: #788995;
-}
 .mapCovid iframe{
     justify-content: center;
 }
 img:hover{-webkit-transform:scale(1.1);transform:scale(1.1);}
 img{overflow:hidden;}
 
-@media (max-width: 480px){
+$mobile: 480px;
+$tablet: 1023px;
+
+a{
+    color: black;
+    &:hover{color: lightblue;}
+    &:active{color: aqua}
+}
+
+@media (max-width: $mobile){
+    
     /* Index */
 
     .LogoBorde{
@@ -293,17 +307,10 @@ img{overflow:hidden;}
 
     /* Nosotros */
     .ubi iframe{
-        display: block;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
+        @include mixin2();
     }
     .img{
-        display: block;
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-
+        @include mixin2();
     }
     /* Información Pública*/
     /* como es texto, no hay mucho para hacer yujuuu!*/
@@ -317,7 +324,7 @@ img{overflow:hidden;}
     /* Contáctanos */
     /*igual xd */
 }
-@media (max-width: 1023px){
+@media (max-width: $tablet){
     .grid{
         display: inline-block;
         grid-template-rows: 1fr;

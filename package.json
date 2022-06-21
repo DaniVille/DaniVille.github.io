@@ -1,7 +1,6 @@
 {
   "name": "daniville.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/DaniVille/DaniVille.github.io/issues"
   },
-  "homepage": "https://github.com/DaniVille/DaniVille.github.io#readme"
+  "homepage": "https://github.com/DaniVille/DaniVille.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "package-lock": "^1.0.5"
+  }
 }

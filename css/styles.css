@@ -195,6 +195,7 @@ p {
   text-align: center;
   background-color: #0A6091;
   padding: 1rem;
+  color: black;
 }
 
 .atencion {
@@ -240,10 +241,6 @@ form p {
   width: 50%;
 }
 
-body {
-  background-color: #788995;
-}
-
 .mapCovid iframe {
   justify-content: center;
 }
@@ -254,6 +251,16 @@ img:hover {
 
 img {
   overflow: hidden;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: lightblue;
+}
+a:active {
+  color: aqua;
 }
 
 @media (max-width: 480px) {
@@ -321,8 +328,8 @@ img {
 
   .img {
     display: block;
-    height: 100%;
     width: 100%;
+    height: 100%;
     justify-content: center;
   }
 
