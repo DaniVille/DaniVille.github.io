@@ -177,14 +177,14 @@ p {
   justify-content: space-around;
 }
 
-.ubi, .subItem {
+.ubi {
   text-align: center;
 }
-
-.ubi h2, .subItem {
+.ubi h2, .ubi .subItem {
   margin: 10px;
   padding: 1rem 0;
   background-color: #0A6091;
+  text-align: center;
 }
 
 .puntos {
@@ -263,6 +263,7 @@ a:active {
   color: aqua;
 }
 
+/* agua es god */
 @media (max-width: 480px) {
   /* Index */
   .LogoBorde {
