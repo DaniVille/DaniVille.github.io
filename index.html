@@ -13,31 +13,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- CDN PARA ICONOS -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1676172edd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <header class="header">
-    <div class="container logo">
-            <div class="logo-mobile">
-                <a href="#"> <img class="LogoBorde" src="/Img/Logo.png" height="150px" alt="logo" /></a>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="./pages/nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="./pages/SARS-CoV-2.html">SARS-CoV-2</a>
-                        <a class="nav-item nav-link" href="./pages/InformacionPublica.html">Información Pública</a>
-                        <a class="nav-item nav-link" href="./pages/atencion.html">Atención</a>
-                        <a class="nav-item nav-link" href="./pages/contactanos.html">Contáctos</a>
-                    </div>
-                </div>
-            </nav>
+    <div id="toggle-menu" class="toggle-menu">
+        <input type="checkbox" name="checkbox" id="nose" class="checkbox">
+        <label for="nose" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
     </div>
+        <div class="container logo">
+    <div class="logo-mobile">
+        <a href="#"> <img class="LogoBorde" src="/Img/Logo.png" height="100px" alt="logo" /></a>
+    </div>
+    <nav class="main-nav">
+        <ul class="main-menu">
+            <li class="main-menu_item"><a class="main-menu_link" href="#">Inicio</a></li>
+            <li class="main-menu_item"><a class="main-menu_link" href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="main-menu_item"><a class="main-menu_link" href="./pages/SARS-CoV-2.html">SARS-CoV-2</a></li>
+            <li class="main-menu_item"><a class="main-menu_link" href="./pages/InformacionPublica.html">Información Pública</a></li>
+            <li class="main-menu_item"><a class="main-menu_link" href="./pages/contactanos.html">Contáctos</a></li>
+            <li class="main-menu_item"><a class="main-menu_link" href="./pages/atencion.html">Atención</a></li>
+        </ul>
+    </nav>
+</div>
 </header>
     <main class="main">
         <div class="container">
