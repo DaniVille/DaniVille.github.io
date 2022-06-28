@@ -13,26 +13,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- CDN PARA ICONOS -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1676172edd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="container logo">
-                <div class="logo-mobile">
-                    <a href="../index.html"> <img class="LogoBorde" src="/Img/Logo.png" height="100px" alt="logo" /></a>
-                </div>
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu_item"><a class="main-menu_link" href="../index.html">Inicio</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./nosotros.html">Nosotros</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./SARS-CoV-2.html">SARS-CoV-2</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./InformacionPublica.html">Información Pública</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="#">Atención</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./contactanos.html">Contáctos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav">
+            <div class="nav__container">
+                    <a href="../index.html"> <img class="nav__logo" src="/Img/Logo.png" height="100px" alt="logo" /></a>
+                    <label for="menu" class="nav__label">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu" class="nav__input">
+                    <div class="nav__menu">
+                        <a class="nav__item" href="../index.html">Inicio</a>
+                        <a class="nav__item" href="./nosotros.html">Nosotros</a>
+                        <a class="nav__item" href="./SARS-CoV-2.html">SARS-CoV-2</a>
+                        <a class="nav__item" href="./InformacionPublica.html">Información Pública</a>
+                        <a class="nav__item" href="#">Atención</a>
+                        <a class="nav__item" href="./contactanos.html">Contáctos</a>
+                    </div>
+            </div>
+        </nav>
     </header>
     <main class="main">
         <div class="container">

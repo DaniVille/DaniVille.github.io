@@ -18,27 +18,23 @@
 </head>
 <body>
 <header class="header">
-    <div id="toggle-menu" class="toggle-menu">
-        <input type="checkbox" name="checkbox" id="nose" class="checkbox">
-        <label for="nose" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-    </div>
-        <div class="container logo">
-    <div class="logo-mobile">
-        <a href="#"> <img class="LogoBorde" src="/Img/Logo.png" height="100px" alt="logo" /></a>
-    </div>
-    <nav class="main-nav">
-        <ul class="main-menu">
-            <li class="main-menu_item"><a class="main-menu_link" href="#">Inicio</a></li>
-            <li class="main-menu_item"><a class="main-menu_link" href="./pages/nosotros.html">Nosotros</a></li>
-            <li class="main-menu_item"><a class="main-menu_link" href="./pages/SARS-CoV-2.html">SARS-CoV-2</a></li>
-            <li class="main-menu_item"><a class="main-menu_link" href="./pages/InformacionPublica.html">Información Pública</a></li>
-            <li class="main-menu_item"><a class="main-menu_link" href="./pages/contactanos.html">Contáctos</a></li>
-            <li class="main-menu_item"><a class="main-menu_link" href="./pages/atencion.html">Atención</a></li>
-        </ul>
+    <nav class="nav">
+        <div class="nav__container">
+                <a href="../index.html"> <img class="nav__logo" src="/Img/Logo.png" height="100px" alt="logo" /></a>
+                <label for="menu" class="nav__label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+                <div class="nav__menu">
+                        <a class="nav__item" href="#">Inicio</a>
+                        <a class="nav__item" href="./pages/nosotros.html">Nosotros</a>
+                        <a class="nav__item" href="./pages/SARS-CoV-2.html">SARS-CoV-2</a>
+                        <a class="nav__item" href="./pages/InformacionPublica.html">Información Pública</a>
+                        <a class="nav__item" href="./pages/atencion.html">Atención</a>
+                        <a class="nav__item" href="./pages/contactanos.html">Contáctos</a>
+                </div>
+        </div>
     </nav>
-</div>
 </header>
     <main class="main">
         <div class="container">
@@ -141,9 +137,9 @@
 <footer class="footer">
         <p>Síguenos en nuestras redes para que no te pierdas de nada</p>
         <div class="footer-icon">
-            <i class="ri-facebook-circle-line ri-2x"></i>
-            <i class="ri-instagram-line ri-2x"></i>
-            <i class="ri-twitter-line ri-2x"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
         </div>
         <ul>
             <li>Términos y condiciones</li>

@@ -15,27 +15,29 @@
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
     <!-- CDN PARA ICONOS -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1676172edd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <title>SARS-CoV-2 - Centro Salud</title>
 </head>
 <body>
     <header class="header">
-        <div class="container logo">
-                <div class="logo-mobile">
-                    <a href="../index.html"> <img class="LogoBorde" src="/Img/Logo.png" height="100px" alt="logo" /></a>
-                </div>
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li class="main-menu_item"><a class="main-menu_link" href="../index.html">Inicio</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./nosotros.html">Nosotros</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="#">SARS-CoV-2</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./InformacionPublica.html">Información Pública</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./atencion.html">Atención</a></li>
-                    <li class="main-menu_item"><a class="main-menu_link" href="./contactanos.html">Contáctos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav">
+            <div class="nav__container">
+                    <a href="../index.html"> <img class="nav__logo" src="/Img/Logo.png" height="100px" alt="logo" /></a>
+                    <label for="menu" class="nav__label">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu" class="nav__input">
+                    <div class="nav__menu">
+                        <a class="nav__item" href="../index.html">Inicio</a>
+                        <a class="nav__item" href="./nosotros.html">Nosotros</a>
+                        <a class="nav__item" href="#">SARS-CoV-2</a>
+                        <a class="nav__item" href="./InformacionPublica.html">Información Pública</a>
+                        <a class="nav__item" href="./atencion.html">Atención</a>
+                        <a class="nav__item" href="./contactanos.html">Contáctos</a>
+                    </div>
+            </div>
+        </nav>
     </header>
 
 <main class="main">
