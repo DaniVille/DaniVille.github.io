@@ -120,8 +120,7 @@ nav .nav__item {
   font-weight: bold;
 }
 nav .nav__item:hover {
-  color: black;
-  background-color: #0A6091;
+  color: white;
 }
 nav .nav__logo {
   border: 2px;

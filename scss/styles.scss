@@ -93,6 +93,7 @@ h1, h2, h3{
     font-weight: bold;
 }
 
+
 //nav
 .header{
     background-color: #55FFCC;
@@ -130,9 +131,9 @@ nav{
         color: $titleColor;
         font-weight: bold;
         &:hover{
-            color: black;
-            background-color: $secondColor;
+            color: white;
         }
+        //agua es god xd
     }
     .nav__logo{
         border: 2px;
